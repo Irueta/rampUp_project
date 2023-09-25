@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ramp-Up Project</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.jpg" type="image/x-icon" />
 </head>
 <body>
     <header>
@@ -19,12 +20,12 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="comienzoPag">
             <h1>Conoce a Jon</h1>
             <p>Esta es la información relevante para conocerme mejor:</p>
         </section>
-        <section>
-            <article>
+        <section id="portfolioInfo">
+            <article id="estudios">
                 <h2>Estudios</h2>
                 <table>
                     <tr>
@@ -55,17 +56,28 @@
                     </tr>
                   </table>
             </article>
-            <article>
+            <article id="deportes">
                 <h2>Deportes</h2>
                 <p>Uno de mis deportes favoritos es el snowboard y lo suelo practicar cada temporada todas las veces que puedo.</p>
                 <video src="../assets/video/ski.mp4" controls></video>
             </article>
-            <article>
+            <article id="musica">
                 <h2>Música</h2>
                 <p>Mi música favorita es el metal o death metal. Me gustal los grupos como Chimaira y Korn.</p>
                 <audio src="../assets/audio/frantic.mp3" controls></audio>
             </article>
         </section>
+        <div class="top"><a href="#">Back to top</a></div>
     </main>
+    <footer id="piePag">
+      <dl>
+          <dd>Jon Irueta</dd>
+          <dd>Ramp-Up project</dd>
+          <dd>The Bridge</dd>
+          <dd>BBK</dd>
+          <dd>Bilbao</dd>
+          <dd>FullStack</dd>
+      </dl>
+  </footer>
 </body>
 </html>
