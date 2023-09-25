@@ -4,24 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramp-Up Project</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="#Home">Home</a>
-            <a href="">Biografía</a>
-            <a href="">Portfolio</a>
-            <a href="">Contacto</a>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="./html/biografia.html">Biografía</a></li>
+                <li><a href="./html/portfolio.html">Portfolio</a></li>
+                <li><a href="./html/contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="intro">
+            <img id="portada_img" src="./assets/img/portada2.jpg" alt="Imagen de portada">
             <h1>Ramp-Up Project</h1>
-            
+            <p>Esta es una web-project de Jon Irueta hecho para el Ramp-Up del bootcamp de The Bridge.</p>
+            <h2>Estas son las partes del proyecto aparte del landing page:</h2>
+        </section>
+        <section id="bloques">
+            <article>
+                <h3>Bibliografía</h3>
+                <img src="./assets/img/bibliografia.jpg" alt="">
+            </article>
+            <article>
+                <h3>Portfolio</h3>
+                <img src="./assets/img/portfolio.jpg" alt="">
+            </article>
+            <article>
+                <h3>Contacto</h3>
+                <img src="./assets/img/contacto.jpg" alt="">
+            </article>
         </section>
     </main>
-    <footer>
-
+    <footer id="piePag">
+        <dl>
+            <dd>Jon Irueta</dd>
+            <dd>Ramp-Up project</dd>
+            <dd>The Bridge</dd>
+            <dd>BBK</dd>
+            <dd>Bilbao</dd>
+            <dd>FullStack</dd>
+        </dl>
     </footer>
 </body>
 </html>

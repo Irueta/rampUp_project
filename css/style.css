@@ -1,0 +1,109 @@
+* {
+    /* color: white; */
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    font-size: 1.2rem;
+    /* background-color: black; */
+    
+}
+/*---------------NAVEGADOR-----------------*/
+nav > ul > li {
+  display: inline;
+  padding: 20px 20px;
+}
+nav > ul > li:hover {
+  background-color: #73C2BE;
+}
+nav > ul > li > a {
+  text-decoration: none;
+}
+
+/*---------------FOOTER-----------------*/
+footer{
+  background-color: #776885;
+  text-align: center;
+}
+/*---------------INDEX-----------------*/
+#intro > img {
+  width: 100%;
+  height: 30%;
+}
+
+#bloques {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: #73C2BE;
+}
+
+#bloques > article {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-content: center;
+}
+
+#bloques > article > img{
+    width: 30%;
+}
+
+/*------------ HTML Contacto------------------*/
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.contacto_header{
+  text-align: center;
+}
+
+#contactoAside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#contactoAside > article{
+  padding: 10px;
+  border: 1px solid white;
+}
+
+#name,
+#lname,
+#email,
+#tlf,
+#razon,
+#informacionAdd,
+#accept {
+  margin-bottom: 15px;
+}
+/*----------------------- PORTFOLIO------------------*/
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+tr:hover {
+  background-color: blue;
+}
+
+article#estudios > table {
+  border-collapse: collapse;
+  width: 98%;
+  /* border-color: 1px solid black; */
+}
+
+section > article,
+table,
+form {
+  margin-left: 20px;
+}

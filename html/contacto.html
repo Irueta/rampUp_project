@@ -4,8 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body id="contacto_body">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./biografia.html">Biografía</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contactoAside">
+        <article id="contacto">
+            <h2 class="contacto_header">Contacto</h2>
+        <p>Rellena el formulario para ponerte en contacto conmigo</p>
+        <form action="#contactar" id="contactForm">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" placeholder="Introduce tu nombre..." maxlenght="30" required />
+
+          <label for="lname">Apellidos:</label>
+          <input type="text" id="lname" name="lname" placeholder="Introduce tus apellidos..." maxlenght="30" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Introduce email..." required />
+
+          <label for="tlf">Teléfono:</label>
+          <input type="tel" id="tlf" name="tlf" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Introduce tu teléfono..." required />
+
+          <label for="razon">¿Por qué quieres contactar conmigo?:</label>
+          <select id="razon" name="razon" required>
+            <option value="entrevista">Entrevista de trabajo</option>
+            <option value="spam">Quieres ofrecerme tus servicios/productos</option>
+            <option value="ligar">Quieres flirtear conmigo</option>
+            <option value="otros">Otros</option></select>
+
+          <label for="informacionAdd">Información adicional:</label>
+          <textarea rows="3" cols="20" id="informacionAdd" name="informacionAdd" placeholder="Información adicional..."></textarea>
+
+          <label
+            ><input type="checkbox" id="accept" value="accept" name="accept" required/>
+            Acepto los términos y condiciones legales</label>
+
+          <input type="submit" value="Enviar" />
+        </form>
+        </article>
+        <aside>
+        <h2>Teléfonos de contacto:</h2>
+        <ul>
+          <li>678 901 234</li>
+          <li>900 000 000</li>
+          <li>1122</li>
+        </ul>
+        </aside>
+        </section>
+        
+
+      
     
 </body>
 </html>
